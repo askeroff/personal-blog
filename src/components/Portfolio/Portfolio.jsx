@@ -7,8 +7,7 @@ import Projects from './Projects'
 import Footer from './Footer'
 
 class Portfolio extends React.Component {
-  constructor() {
-    super()
+  componentDidMount() {
     document.documentElement.className = 'portfolio'
   }
 
