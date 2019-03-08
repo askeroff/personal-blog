@@ -3,7 +3,7 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
+    url: 'https://askerovjavid.com',
     title: 'Javid Askerov',
     subtitle:
       'Javascript Developer',
@@ -12,7 +12,7 @@ module.exports = {
     menu: [
       {
         label: 'Articles',
-        path: '/',
+        path: '/articles',
       },
       {
         label: 'About me',
