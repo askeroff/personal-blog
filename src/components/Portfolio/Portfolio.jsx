@@ -23,6 +23,7 @@ class Portfolio extends React.Component {
             href="https://fonts.googleapis.com/css?family=Inconsolata|Lato"
             rel="stylesheet"
           />
+          <title>Javid Askerov</title>
         </Helmet>
 
         <Header />
