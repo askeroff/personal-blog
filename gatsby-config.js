@@ -5,8 +5,7 @@ module.exports = {
   siteMetadata: {
     url: 'https://askerovjavid.com',
     title: 'Javid Askerov',
-    subtitle:
-      'Javascript Developer',
+    subtitle: 'Javascript Developer',
     copyright: 'Hey, there.',
     disqusShortname: '',
     menu: [
@@ -17,10 +16,6 @@ module.exports = {
       {
         label: 'About me',
         path: '/about/',
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/',
       },
     ],
     author: {

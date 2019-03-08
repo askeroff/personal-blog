@@ -10,4 +10,6 @@ tags:
 description: "Let's how this goes"
 ---
 
-Let's just take a loog how this whole thing works!
+This is a sample blog post, I will post here in the future. Right now I'm in the process of figuring out how gatsby work, the static site generator this website is built on.
+
+When all of that is done, I'm going to post some thing about web development, and maybe some other stuff in general.
