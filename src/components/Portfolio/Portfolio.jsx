@@ -5,6 +5,7 @@ import '../../assets/scss/portfolio/_portfolio.scss'
 import icon from '../../assets/favicon.ico'
 import Header from './Header'
 import Projects from './Projects'
+import About from './About'
 import Footer from './Footer'
 
 class Portfolio extends React.Component {
@@ -29,7 +30,7 @@ class Portfolio extends React.Component {
         </Helmet>
 
         <Header />
-
+        <About />
         <Projects />
 
         <Footer />
