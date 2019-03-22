@@ -56,8 +56,9 @@
         margin-right: 15px;
         @include line-height(1);
         @include margin-top(1);
-        @include margin-bottom(2);
         &-text {
+            @include margin-bottom(0);
+            padding: 2rem 0;
             & a {
                 text-decoration: underline;
             }
@@ -150,8 +151,8 @@
             @include line-height(1.125);
             @include margin-bottom(1.125);
             & p {
-                font-size: $typographic-base-font-size * 1.125;
-                @include line-height(1.125);
+                font-size: $typographic-base-font-size * 1.5;
+                @include line-height(1.5);
                 @include margin-bottom(1.125);
             }
         }

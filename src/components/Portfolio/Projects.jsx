@@ -2,7 +2,6 @@ import React from 'react'
 
 const Projects = () => (
   <div className="projects-list block">
-    <h1 className="block-title">Projects</h1>
     <div className="projects-items">
       <div className="project-item">
         <h2>Logsterr</h2>
