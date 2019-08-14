@@ -52,7 +52,6 @@ h2 {
 
 .portfolio--header {
   position: relative;
-  height: 22rem;
   border-bottom: none;
   background: #fff;
 }
@@ -90,8 +89,9 @@ h2 {
 
 .portfolio-title,
 .portfolio-subtitle {
-  color: #fff;
+  color: #115173;
   padding: 0.5rem;
+  line-height: 4rem;
   font-weight: bold;
   text-align: center;
 }
@@ -152,6 +152,10 @@ h2 {
   margin: auto;
 }
 
+.content {
+  height: 100%;
+}
+
 .project-item {
   width: 100%;
   padding: 1rem;
@@ -189,8 +193,11 @@ h1.block-title {
   list-style: none;
 }
 
-@media (max-width: 600px) and (max-device-width: 600px) {
+@media (max-width: 600px){
   .projects-items {
     grid-template-columns: 1fr;
+  }
+  .triangle--right {
+    border-width: 6rem 6rem 5rem 0px;
   }
 }
