@@ -2,7 +2,7 @@
  * Generic
  */
 
-html {
+ html {
     font-size: $typographic-root-font-size;
 }
 
@@ -140,43 +140,4 @@ figcaption {
     font-style: italic;
     margin-bottom: 0;
     text-align: center;
-}
-
-.layout {
-    lost-center: $layout-width;
-}
-
-.content {
-    &__inner {
-        padding: 25px 20px;
-    }
-}
-
-@include breakpoint-sm {
-    figure.float-left,
-    figure.float-right {
-        max-width: 310px;
-        @include padding(0, 1, 0, 1);
-    }
-    .float-right {
-        float: right;
-    }
-    .float-left {
-        float: left;
-    }
-    .content {
-        lost-column: 7/12;
-        &__inner {
-            padding: 30px 20px;
-        }
-    }
-}
-
-@include breakpoint-md {
-    .content {
-        lost-column: 2/3;
-        &__inner {
-            padding: 40px 35px;
-        }
-    }
 }
