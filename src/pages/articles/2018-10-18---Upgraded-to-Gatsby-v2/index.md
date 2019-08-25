@@ -1,6 +1,6 @@
 ---
-title: Hello, World?
-date: "2019-03-03T16:51:00.000Z"
+title: "Hi"
+date: "2019-08-25T14:32:00.000Z"
 layout: post
 draft: false
 path: "/posts/hello-world/"
@@ -10,26 +10,6 @@ tags:
 description: "Let's how this goes"
 ---
 
-This is a sample blog post, I will post here in the future. Right now I'm in the process of figuring out how gatsby work, the static site generator this website is built on.
-
-When all of that is done, I'm going to post some thing about web development, and maybe some other stuff in general.
-
-This is a sample blog post, I will post here in the future. Right now I'm in the process of figuring out how gatsby work, the static site generator this website is built on.
-
-When all of that is done, I'm going to post some thing about web development, and maybe some other stuff in general.
-
-This is a sample blog post, I will post here in the future. Right now I'm in the process of figuring out how gatsby work, the static site generator this website is built on.
-
-When all of that is done, I'm going to post some thing about web development, and maybe some other stuff in general.
-
-This is a sample blog post, I will post here in the future. Right now I'm in the process of figuring out how gatsby work, the static site generator this website is built on.
-
-When all of that is done, I'm going to post some thing about web development, and maybe some other stuff in general.
-
-This is a sample blog post, I will post here in the future. Right now I'm in the process of figuring out how gatsby work, the static site generator this website is built on.
-
-When all of that is done, I'm going to post some thing about web development, and maybe some other stuff in general.
-
-This is a sample blog post, I will post here in the future. Right now I'm in the process of figuring out how gatsby work, the static site generator this website is built on.
-
-When all of that is done, I'm going to post some thing about web development, and maybe some other stuff in general.
+This is just a sample blog post. The whole point of this was to try out a static site generator, such as gatsby.
+I would like to post things here about web development, mainly to nail down some of the things I learn and have these blog posts as references for myself, and if it helps somebody along the way the better.
+Anyway, let's see how this goes.
