@@ -31,7 +31,7 @@ class Post extends React.Component {
         </div>
         <h2 className="post__title">
           <Link className="post__title-link" to={slug}>
-            {title}!!
+            {title}
           </Link>
         </h2>
         <p className="post__description">{description}</p>
