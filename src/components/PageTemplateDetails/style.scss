@@ -17,3 +17,9 @@
     @include line-height(1 * 1.5);
   }
 }
+
+@media (max-width: 600px) {
+  .page__body {
+    width: 90%;
+  }
+}

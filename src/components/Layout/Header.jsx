@@ -10,7 +10,7 @@ const Header = () => (
           <a href="/">Javid Askerov</a>
         </h1>
         <h2 className="portfolio-subtitle">
-          Full-Stack Developer. Guitar Enthusiast.
+          Code.
         </h2>
         <div className="triangle--right" />
       </div>

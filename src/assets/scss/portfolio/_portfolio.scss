@@ -196,8 +196,21 @@ h1.block-title {
 @media (max-width: 600px){
   .projects-items {
     grid-template-columns: 1fr;
+    width: 90%;
   }
   .triangle--right {
     border-width: 6rem 6rem 5rem 0px;
+  }
+  
+  .portfolio-wrapper {
+    width: 100%;
+  }
+  
+  .project-item {
+    padding: 0;
+  }
+  
+  .projects-list {
+    padding: 0;
   }
 }
