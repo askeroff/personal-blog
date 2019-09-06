@@ -3,7 +3,7 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://askerovjavid.com',
+    siteUrl: 'https://askerovjavid.com/',
     title: 'Javid Askerov',
     subtitle: 'Javascript Developer',
     copyright: 'Hey, there.',
@@ -40,7 +40,7 @@ module.exports = {
           {
             site {
               siteMetadata {
-                site_url: url
+                siteUrl: siteUrl
                 title
                 description: subtitle
               }
@@ -54,8 +54,8 @@ module.exports = {
                 Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.frontmatter.description,
                   date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.site_url + edge.node.fields.slug,
-                  guid: site.siteMetadata.site_url + edge.node.fields.slug,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
                 })
               ),
@@ -128,7 +128,7 @@ module.exports = {
             {
               site {
                 siteMetadata {
-                  url
+                  siteUrl
                 }
               }
               allSitePage(
@@ -147,7 +147,7 @@ module.exports = {
         serialize: ({ site, allSitePage }) =>
           allSitePage.edges.map(edge => {
             return {
-              url: site.siteMetadata.url + edge.node.path,
+              url: site.siteMetadata.siteUrl + edge.node.path,
               changefreq: 'daily',
               priority: 0.7,
             }
